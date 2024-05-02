@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.nav_container {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url(./image/bg_1.jpg);
+  background-size: cover;
+}
+.nav_container .background {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  background-color: rgba(6, 10, 36, 0.6509803922);
+}/*# sourceMappingURL=index.css.map */

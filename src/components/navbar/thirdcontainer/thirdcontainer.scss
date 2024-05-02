@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+.thirdcontainer{
+    display: flex;
+    position:absolute;
+    flex-direction: column;
+    height:auto;
+    top:345px;
+    left:455px;
+    width:650px;
+    text-align: left;
+    .fp{
+        font-size: 20px;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        line-height: 30px;
+        color: #ffffffb4;
+        margin-bottom: 30px;
+    }
+    .tp{
+        font-size: 50px;
+        color: #FFFFFF;
+        font-weight:bolder;
+        word-spacing: 3px;
+        letter-spacing: 0.5px;
+    }
+    .button{
+        height: 50px;
+        width:130px;
+        text-align: center;
+        padding: 15px;
+        margin-top: 25px;
+        background-color:#323edd;
+        color: #FFFFFF;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
