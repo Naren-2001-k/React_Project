@@ -1,0 +1,19 @@
+.subConsulting_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    width:100%;
+    background-color: brown;
+    .consult_people{
+        display: flex;
+        height: 535px;
+        width:555px;
+        background-image: url(../image/about.jpg);
+    }
+    .consult_numbers{
+        display: flex;
+        height: 535px;
+        width:555px;
+    }
+}

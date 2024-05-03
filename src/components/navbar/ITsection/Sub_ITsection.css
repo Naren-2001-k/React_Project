@@ -1,0 +1,13 @@
+.Sub_ITsection {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.Sub_ITsection .center {
+  display: flex;
+  height: 350px;
+  width: 330px;
+}/*# sourceMappingURL=Sub_ITsection.css.map */
