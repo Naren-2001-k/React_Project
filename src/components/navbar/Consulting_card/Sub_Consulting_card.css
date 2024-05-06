@@ -46,7 +46,7 @@
   text-align: left;
   margin-top: 15px;
   flex-direction: row;
-  justify-content: first baseline;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .subConsulting_card .consult_numbers .Data_container .Data {
