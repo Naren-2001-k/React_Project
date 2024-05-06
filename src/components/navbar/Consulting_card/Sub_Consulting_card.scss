@@ -1,19 +1,65 @@
 .subConsulting_card{
     display: flex;
+    width:100%;
+    height:500px;
     justify-content: center;
     align-items: center;
-    height:500px;
-    width:100%;
-    background-color: brown;
+    margin-top: 70px;
     .consult_people{
         display: flex;
-        height: 535px;
         width:555px;
+        height:500px;
         background-image: url(../image/about.jpg);
+        background-size:cover;
+        background-position-x:center ;
     }
     .consult_numbers{
         display: flex;
-        height: 535px;
+        flex-wrap: wrap;
         width:555px;
-    }
+        height:500px;
+        background-color: #323EDD;
+        justify-content:center;
+        text-align:center;
+        padding: 50px;
+        text-align: left;
+        flex-direction: column;
+        h2{
+            color: white;
+            font-size: 40px;
+            margin:0 0 24px;
+            span{
+            color: #FFA41B;
+        }
+        }
+        p{
+            color: #D8DAF9;
+            font-size: 16px;
+            margin:0 0 16px;
+        }
+        .Data_container{
+            display: flex;
+            width:auto;
+            height: auto;
+            text-align: left;
+            margin-top: 15px;
+            flex-direction: row;
+            justify-content:first baseline;
+            flex-wrap: wrap;
+            .Data{
+                display: flex;
+                flex-direction: column;
+                // padding: 10px;
+                margin:0px 10px;
+                .numbers{
+                    font-size: 30px;
+                    color: white;
+                    font-weight: bold;
+                }
+                .content{
+                    font-size: 14px;
+                }
+            }
+        }
+        }
 }

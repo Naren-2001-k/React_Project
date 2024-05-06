@@ -6,7 +6,7 @@ import Third from "./components/navbar/thirdcontainer/thirdcontainer";
 import Subfour from "./components/navbar/fourthcontainer/subfour";
 import Banner from "./components/navbar/Banner/Banner";
 import Sub_ITsection from "./components/navbar/ITsection/Sub_ITsection";
-import Consulting_card from "./components/navbar/Consulting_card/Consulting_card";
+import Sub_Consulting_card from "./components/navbar/Consulting_card/Sub_Consulting_card";
 function App() {
   return (
     <div className="App">
@@ -16,7 +16,7 @@ function App() {
       <Subfour />
       <Banner />
       <Sub_ITsection />
-      <Consulting_card />
+      <Sub_Consulting_card />
     </div>
   );
 }

@@ -1,19 +1,64 @@
 .subConsulting_card {
   display: flex;
+  width: 100%;
+  height: 500px;
   justify-content: center;
   align-items: center;
-  height: 500px;
-  width: 100%;
-  background-color: brown;
+  margin-top: 70px;
 }
 .subConsulting_card .consult_people {
   display: flex;
-  height: 535px;
   width: 555px;
+  height: 500px;
   background-image: url(../image/about.jpg);
+  background-size: cover;
+  background-position-x: center;
 }
 .subConsulting_card .consult_numbers {
   display: flex;
-  height: 535px;
+  flex-wrap: wrap;
   width: 555px;
+  height: 500px;
+  background-color: #323EDD;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  text-align: left;
+  flex-direction: column;
+}
+.subConsulting_card .consult_numbers h2 {
+  color: white;
+  font-size: 40px;
+  margin: 0 0 24px;
+}
+.subConsulting_card .consult_numbers h2 span {
+  color: #FFA41B;
+}
+.subConsulting_card .consult_numbers p {
+  color: #D8DAF9;
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+.subConsulting_card .consult_numbers .Data_container {
+  display: flex;
+  width: auto;
+  height: auto;
+  text-align: left;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: first baseline;
+  flex-wrap: wrap;
+}
+.subConsulting_card .consult_numbers .Data_container .Data {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+.subConsulting_card .consult_numbers .Data_container .Data .numbers {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.subConsulting_card .consult_numbers .Data_container .Data .content {
+  font-size: 14px;
 }/*# sourceMappingURL=Sub_Consulting_card.css.map */
