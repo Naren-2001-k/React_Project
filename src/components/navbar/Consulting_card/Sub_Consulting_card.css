@@ -29,7 +29,7 @@
 .subConsulting_card .consult_numbers h2 {
   color: white;
   font-size: 40px;
-  margin: 0 0 24px;
+  margin: 0 0 20px;
 }
 .subConsulting_card .consult_numbers h2 span {
   color: #FFA41B;
@@ -37,14 +37,14 @@
 .subConsulting_card .consult_numbers p {
   color: #D8DAF9;
   font-size: 16px;
-  margin: 0 0 16px;
+  margin: 0 0 20px;
 }
 .subConsulting_card .consult_numbers .Data_container {
   display: flex;
   width: auto;
   height: auto;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 20px;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
@@ -52,7 +52,7 @@
 .subConsulting_card .consult_numbers .Data_container .Data {
   display: flex;
   flex-direction: column;
-  margin: 0px 10px;
+  margin-inline-end: 110px;
 }
 .subConsulting_card .consult_numbers .Data_container .Data .numbers {
   font-size: 30px;

@@ -5,8 +5,8 @@ function Fourthcontainer(props) {
     return (
         <div className="component">
             <div className="box">
-                <div class="line-1 line">1</div>
-                <div class="line-2 line">2</div>
+                <div class="line-1 line"></div>
+                <div class="line-2 line"></div>
                 <img src={image} alt="" />
                     <p className="field">{name}</p>
                     </div>
