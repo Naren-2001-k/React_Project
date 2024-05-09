@@ -1,0 +1,8 @@
+.Question_box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: aqua;
+}/*# sourceMappingURL=Question_box.css.map */

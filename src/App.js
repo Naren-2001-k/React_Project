@@ -11,6 +11,7 @@ import Banner2 from "./components/navbar/Banner2/Banner2";
 import Department from "./components/navbar/Department/Department";
 import Banner3 from "./components/navbar/Banner3/Banner3";
 import Strategy from "./components/navbar/Strategy/Strategy";
+import Question_box from "./components/navbar/Question_box/Question_box";
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
       <Department />
       <Banner3 />
       <Strategy />
+      <Question_box />
     </div>
   );
 }
