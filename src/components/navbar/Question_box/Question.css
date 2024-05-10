@@ -3,7 +3,6 @@
   width: 570px;
   flex-direction: column;
   height: 715px;
-  background-color: bisque;
   text-wrap: wrap;
   text-align: left;
   padding: 20px;
@@ -15,22 +14,14 @@
   display: flex;
   width: 100%;
   margin-top: 40px;
-}
-.Questions .button button {
-  height: 50px;
-  width: 100%;
-  background-color: white;
-  border-radius: 25px;
   padding: 16px 24px;
-  border: none;
-  text-align: left;
-  z-index: 1;
+  height: 55px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 28px;
   font-size: 18px;
-  font-weight: 600;
-}
-.Questions .button img {
-  height: 15px;
-  width: 12px;
+  font-weight: 500;
+  transition: all 1.5s ease;
 }
 .Questions .Answers {
   display: flex;
@@ -39,6 +30,9 @@
   margin-top: 10px;
   background-color: #FFA41B;
   border-radius: 25px;
+  padding: 12px;
+  transition: all 1.5s ease;
+  flex-direction: column;
 }
 .Questions .Answers ol {
   line-height: 40px;
@@ -48,4 +42,13 @@
 }
 .Questions .Answers ol li {
   font-size: 16px;
+  list-style-type: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.block {
+  display: block;
 }/*# sourceMappingURL=Question.css.map */

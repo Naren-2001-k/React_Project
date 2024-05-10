@@ -1,27 +1,49 @@
 import React, { useState } from 'react';
-import "./Question.css"
-function Questions(props) {
-    const { Questions, Answers } = props;
-    const [color, setColor] = useState("black"); // State for managing color
+import "./Question.css"; // Assuming you have a CSS file named Question.css
+import data from "./question.json";
 
-  const handleChange = () => {
-    setColor("#323EDD"); // Change color to red
+function Questions(props) {
+  const [selectedQuestion, setSelectedQuestion] = useState(0);
+
+  const handleQuestionClick = (e, index) => {
+    e.preventDefault();
+    setSelectedQuestion(index);
   };
+
+ 
+
   return (
-    <div className="Questions">
-              <h1>Frequently Asks Questions</h1>
-              <div className="button" onClick={handleChange} >
-              <button style={{ color: color }}>{Questions}</button>
-          </div>
-          <div className="Answers">
-              <ol>
-          {Answers.map((answer, index) => (
-            <li key={index}>&nbsp;&nbsp;&nbsp;{answer}</li>
-          ))}
-        </ol>
-          </div>
-          </div>
-  )
+    <>
+      <div className="Questions">
+        <h1>Frequently Asked Questions</h1>
+        {data && data.map((question, parentIndex) => {
+          return (
+            <>
+            <div className='button' key={parentIndex} onClick={(e)=> handleQuestionClick(e,parentIndex)}>
+              {question.question}
+            </div>
+            <ol className={`Answers ${parentIndex == selectedQuestion ? "block " : "hidden"}`}>
+                {question.answers.map((answer, index) => {
+                  return (
+                      <li  key={index}>{`${answer}`}</li>
+
+                )
+              })}
+              </ol>
+              </>
+          );
+        })}
+        {/* <div className="Answers">
+          {selectedQuestion !== null && (
+            <ol>
+              <li>{data[selectedQuestion].answers}</li>
+              </ol>
+        )}
+      </div> */}
+      </div>
+      
+    </>
+  );
 }
 
-export default Questions
+export default Questions;
