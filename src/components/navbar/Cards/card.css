@@ -1,0 +1,29 @@
+.card {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card .innerCard {
+  height: 300px;
+  width: 500px;
+  border-radius: 15px;
+  background-color: wheat;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.card .innerCard .imgSection {
+  height: 100px;
+  width: 100px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.card .innerCard .imgSection > img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=card.css.map */

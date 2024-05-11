@@ -6,14 +6,18 @@
   text-wrap: wrap;
   text-align: left;
   padding: 20px;
+  justify-content: center;
 }
-.Questions h1 {
+.Questions .question_box {
+  width: 100%;
+}
+.Questions .question_box h1 {
   font-size: 42px;
 }
-.Questions .button {
+.Questions .question_box .button {
   display: flex;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 16px 24px;
   height: 55px;
   background-color: white;
@@ -30,19 +34,18 @@
   margin-top: 10px;
   background-color: #FFA41B;
   border-radius: 25px;
-  padding: 12px;
+  padding: 20px;
   transition: all 1.5s ease;
   flex-direction: column;
 }
-.Questions .Answers ol {
-  line-height: 40px;
-  margin-left: 20px;
-  padding: 15px;
-  color: #FFF2EB;
-}
-.Questions .Answers ol li {
+.Questions .Answers li {
   font-size: 16px;
-  list-style-type: none;
+  list-style-type: decimal;
+  line-height: 34px;
+  margin-left: 15px;
+  word-spacing: 1px;
+  color: #FEF1DD;
+  letter-spacing: normal;
 }
 
 .hidden {
@@ -51,4 +54,35 @@
 
 .block {
   display: block;
+}
+
+.Images {
+  display: flex;
+  width: 570px;
+  flex-direction: column;
+  height: 715px;
+  padding: 20px;
+  overflow: hidden;
+  justify-content: center;
+}
+.Images .Images1 .first_image {
+  width: 100%;
+}
+.Images .Images2 {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+  justify-content: center;
+}
+.Images .Images2 .second_image {
+  height: 250px;
+  width: 260px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+.Images .Images2 .third_image {
+  height: 250px;
+  width: 260px;
 }/*# sourceMappingURL=Question.css.map */
