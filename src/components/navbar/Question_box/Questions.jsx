@@ -35,19 +35,12 @@ function Questions(props) {
                     }`}
                   >
                     {question.answers.map((answer, index) => {
-                      return <li key={index}>{`${answer}`}</li>;
+                      return <li key={index}>={`${answer}`}</li>;
                     })}
                   </ol>
                 </>
               );
             })}
-          {/* <div className="Answers">
-          {selectedQuestion !== null && (
-            <ol>
-              <li>{data[selectedQuestion].answers}</li>
-              </ol>
-        )}
-      </div> */}
         </div>
       </div>
       <div className="Images">
