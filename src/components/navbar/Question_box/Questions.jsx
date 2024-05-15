@@ -35,7 +35,7 @@ function Questions(props) {
                     }`}
                   >
                     {question.answers.map((answer, index) => {
-                      return <li key={index}>={`${answer}`}</li>;
+                      return <li key={index}>{`${answer}`}</li>;
                     })}
                   </ol>
                 </>

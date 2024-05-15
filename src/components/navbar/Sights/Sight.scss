@@ -1,0 +1,26 @@
+.sights{
+    display: flex;
+    background-image: url("../image/bg_1.jpg");
+    background-size: cover;
+    width:100%;
+    justify-content:center ;
+    height: 50vh;
+    .sightsBack{
+        display: flex;
+        background-color: #060a24a6;
+        width:100%;
+        justify-content:center ;
+        .sightsHeading{
+            display: flex;
+            width: auto;
+            height:auto;
+            justify-content:center ;
+            align-items: center;
+            p{
+                font-size: 40px;
+                font-weight: 700;
+                color: white;
+            }
+        }
+    }
+}
