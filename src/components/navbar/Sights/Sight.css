@@ -4,23 +4,11 @@
   background-size: cover;
   width: 100%;
   justify-content: center;
-  height: 50vh;
+  height: 80vh;
 }
 .sights .sightsBack {
   display: flex;
   background-color: rgba(6, 10, 36, 0.6509803922);
   width: 100%;
   justify-content: center;
-}
-.sights .sightsBack .sightsHeading {
-  display: flex;
-  width: auto;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-}
-.sights .sightsBack .sightsHeading p {
-  font-size: 40px;
-  font-weight: 700;
-  color: white;
 }/*# sourceMappingURL=Sight.css.map */

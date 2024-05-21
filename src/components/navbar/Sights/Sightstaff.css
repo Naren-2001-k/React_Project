@@ -1,0 +1,27 @@
+.Sightstaff {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.Sightstaff .staffBackground {
+  height: 350px;
+  width: 500px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+.Sightstaff .staffBackground .staffinfo {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+  text-align: left;
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.744);
+}
+.Sightstaff .staffBackground .staffinfo .content {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 30px;
+  word-spacing: 1.5px;
+}/*# sourceMappingURL=Sightstaff.css.map */
