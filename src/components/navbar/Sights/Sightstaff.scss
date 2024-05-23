@@ -1,22 +1,47 @@
-.Sightstaff{
+.Sightstaff {
     display: flex;
-    width:100%;
-    height:auto;
-    .staffBackground{
-        height:350px;
-        width:500px;
+    width: 100%;
+    height: auto;
+
+    .staffBackground {
+        height: 350px;
+        width: 520px;
         display: flex;
-        background-size:cover;
+        margin: 15px;
+        background-size: cover;
         background-position: center;
-    .staffinfo{
-        display: flex;
-        height:300px;
-        width:300px;
-        margin:15px;
-        text-align: left;
-        padding: 15px;
-        background-color: rgba(128, 128, 128, 0.744);
-        .content{
+
+        .staffinfo {
+            display: flex;
+            height: 300px;
+            width: 300px;
+            margin: 15px;
+            text-align: left;
+            padding: 15px;
+            background-color: rgba(128, 128, 128, 0.744);
+            position: relative;
+
+            .line {
+                clip-path: polygon(1.5% 71.3%, 1.7% 69.3%, 1.5% 82.3%, 1.8% 96.3%, 11.3% 96%, 11% 100%, 0% 100%, 0% 76.3%, 0.1% 71.3%);
+                height: 100px;
+                width:200px;
+                background-color: white;
+                position: absolute;
+                transition: all 0.2s ease;
+            }
+            .line-1 {
+                transform: rotate(180deg);
+                right: 0;
+                top: 0;
+            }
+
+            .line-2 {
+                transform: rotate(0deg);
+                left: 0;
+                bottom: 0;
+            }
+
+        .content {
             font-size: 17px;
             font-weight: normal;
             line-height: 30px;

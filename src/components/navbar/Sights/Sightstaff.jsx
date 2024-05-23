@@ -55,6 +55,8 @@ function Sightstaff() {
                 className="staffBackground"
               >
               <div className="staffinfo">
+              <div class="line-1 line"></div>
+                <div class="line-2 line"></div>
                 <p className="content">{value.content}</p>
               </div>
               </div>
