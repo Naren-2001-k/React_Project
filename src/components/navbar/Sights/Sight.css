@@ -4,7 +4,7 @@
   background-size: cover;
   width: 100%;
   justify-content: center;
-  height: 80vh;
+  height: auto;
 }
 .sights .sightsBack {
   display: flex;
